@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+  </head>
+
+  <body>
+    <img
+      src="Background.jpg"
+      alt="Bg"
+      class="fixed contain z-0 w-full h-full"
+    />
+    <section class="flex h-screen justify-center items-center">
+      <div
+        class="bg-white-500 rounded-lg w-96 h-56 z-10 absolute bg-opacity-80 backdrop-saturate-180 backdrop-blur-lg"
+      >
+        <form class="text-white p-8 leading-normal">
+          <div class="mb-1">
+            <label class="cus-lab" for="name">Name </label>
+            <input
+              class="bg-transparent border border-gray-300 rounded-lg"
+              type="text"
+              id="name"
+              name="name"
+            />
+          </div>
+          <br />
+          <div class="mb-1">
+            <label class="cus-lab pr-1.5" for="email">email </label>
+            <input
+              class="bg-transparent border border-gray-300 rounded-lg"
+              type="email"
+              id="email"
+              name="email"
+            />
+          </div>
+          <br />
+          <div class="mb-1">
+            <label class="cus-lab" for="phone">phone</label>
+            <input
+              class="bg-transparent border border-gray-300 rounded-lg"
+              type="number"
+              id="number"
+              name="number"
+            />
+          </div>
+          <br />
+          <div class="flex space-x-6 justify-center">
+            <input
+              class="bg-blue-500 cursor-pointer rounded-lg px-2"
+              type="reset"
+            />
+            <input
+              class="bg-blue-500 cursor-pointer rounded-lg px-2"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
